@@ -1,0 +1,6 @@
+version: "3"
+services:
+  blink:
+    image: hub.foundries.io/baker/blink:latest
+    tty: true
+    privileged: true
